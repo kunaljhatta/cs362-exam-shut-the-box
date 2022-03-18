@@ -9,8 +9,10 @@ describe 'A die' do
       
     end
 
-    it 'TODO' do
-      skip
+    it 'face avlue' do
+      d = Die.new(6)
+      expect(d.face_value).to eq(1)
+
     end
   end
 
