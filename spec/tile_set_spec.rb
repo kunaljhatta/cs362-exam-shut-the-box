@@ -5,7 +5,9 @@ describe 'A tile set' do
   describe '::generate' do
 
     it 'returns an array of 9 tiles by default' do
-      raise "Start here"
+      # map = TileSet.new
+      # expect(map).to eq(9)
+      skip
     end
 
     it 'returns an array of tiles of a specified length' do

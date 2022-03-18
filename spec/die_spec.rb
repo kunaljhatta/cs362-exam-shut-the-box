@@ -3,8 +3,10 @@ require_relative '../lib/die'
 describe 'A die' do
 
   describe 'attributes' do
-    it 'TODO' do
-      skip
+    it 'has slides and values' do
+      d = Die.new(6)
+      expect(d.number_of_sides).to eq(6)
+      
     end
 
     it 'TODO' do
